@@ -3,16 +3,21 @@
   BannerInterno(subTitulo="Introducción")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
   
-    p.mb-4 El entendimiento del ser humano desde una perspectiva holística representa un desafío considerable, pues somos el resultado de diversas esferas: biológica, psicológica, química, neurológica, física y genética. En respuesta a esta complejidad surge la neuropsicología, una ciencia que busca integrar estas dimensiones para comprender quiénes somos y cómo se originan nuestras conductas.
-    
-    .row
-      .col-12.col-md-6.col-xl-4(data-aos="fade-right").bg-verde.p-4.mb-3.rounded.d-flex.align-items-center
-        p.my-auto En esta unidad, se espera que al finalizar el estudiante sea capaz de: comprender los principios fundamentales de la neuropsicología y sus aplicaciones en el aprendizaje, explicar su relevancia en el proceso de enseñanza-aprendizaje, y relacionar los conceptos de neuropsicología con ejemplos prácticos de aprendizaje.
-      .col-4.d-none.d-md-block(data-aos="fade-up").mb-3.rounded
-        img(src='@/assets/curso/unidad/img-1.png', alt='')
-      .col-12.col-md-6.col-xl-4(data-aos="fade-left").bg-rosa.p-4.mb-3.rounded.d-flex.align-items-center
-        p.my-auto La unidad se organiza en torno al tema principal Fundamentos de la Neuropsicología del Aprendizaje, dividido en tres subtemas principales: definición y principios de la neuropsicología, análisis del desarrollo cerebral y aprendizaje, y estructuras cerebrales involucradas en procesos de memoria, atención y aprendizaje.
+    .row.mb-4
+      .col-12.col-xl-7(data-aos="fade-right")
+        .bg-rosa.p-4.mb-4
+          span En el mundo actual, comprender los trastornos del aprendizaje, como la dislexia, la disgrafía y la discalculia, se ha vuelto fundamental para la educación inclusiva y el bienestar de los estudiantes. Esta unidad se enfoca en explorar no solo la naturaleza de estos trastornos, sino también su relación intrínseca con el desarrollo cerebral y su impacto en entornos educativos. Adicionalmente, se abordará el Trastorno por Déficit de Atención e Hiperactividad (TDAH) y sus implicaciones neuropsicológicas, así como las estrategias de intervención que pueden implementarse en contextos educativos para apoyar a los alumnos que enfrentan estas dificultades.
+        span Al finalizar esta unidad, los estudiantes serán capaces de identificar y comprender los trastornos del aprendizaje desde su base neuropsicológica, evaluar las estrategias de intervención neuropsicológica para tratar los trastornos del aprendizaje, así como proponer intervenciones neuropsicológicas adaptadas a diferentes trastornos del aprendizaje.	
+      .col-5.d-none.d-xl-block(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-1.png', alt='Texto que describa la imagen')
 
+    .row.mb-4
+      .d-flex.align-items-center
+        div.d-flex.align-items-center.bg-verde.px-3.py-4
+          img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-2.svg', alt='Texto que describa la imagen')
+          p.pe-xl-5.mb-0 La importancia de estos trastornos trasciende el ámbito académico; afectan directamente la vida de muchos estudiantes y su futuro profesional. Por ejemplo, al entender cómo un estudiante con dislexia aprende de manera diferente, los educadores pueden adaptar sus métodos de enseñanza para maximizar el potencial de cada alumno. Igualmente, conocer las implicaciones del TDAH puede proporcionar herramientas para mejorar la atención y el rendimiento en el aula.
+    
+    
 
 
 </template>

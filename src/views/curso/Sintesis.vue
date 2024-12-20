@@ -2,7 +2,7 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 El estudio de la neuropsicología y su relación con el aprendizaje ofrece al estudiante una comprensión integral de los principios neuropsicológicos que fundamentan el desarrollo cognitivo, emocional y social. A través de esta formación, se exploran temas como la definición y principios de la neuropsicología, el desarrollo cerebral en diferentes etapas del ciclo vital, y las estructuras cerebrales clave en procesos como memoria, atención y aprendizaje. 
+    p.mb-4.mb-md-5 Los trastornos del aprendizaje, como la dislexia, disgrafía, discalculia y el TDAH, afectan áreas específicas del desarrollo cerebral relacionadas con habilidades clave como la lectura, escritura, cálculo y control de atención e impulsos, impactando el rendimiento académico. La intervención requiere estrategias neuropsicológicas personalizadas, como enseñanza diferenciada, uso de tecnologías educativas y entornos estructurados, adaptadas al contexto cultural, social y estilo de aprendizaje de cada estudiante. Es esencial que educadores y redes de apoyo implementen prácticas inclusivas que aborden estas dificultades, promoviendo tanto el aprendizaje como el bienestar integral del estudiante, garantizando su éxito académico y personal.
     figure
       img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     

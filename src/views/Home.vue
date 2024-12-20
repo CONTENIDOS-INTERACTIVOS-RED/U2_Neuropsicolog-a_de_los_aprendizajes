@@ -22,9 +22,10 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 La neuropsicología, como disciplina interdisciplinar, estudia la interacción entre cerebro, conducta y entorno, abordando funciones cognitivas como memoria, atención y aprendizaje. Destaca el papel de estructuras cerebrales como la corteza prefrontal, el hipocampo y los ganglios basales en procesos clave. La memoria se clasifica en sensorial, corto plazo y largo plazo, mientras que la atención incluye tipos como selectiva y sostenida. El aprendizaje se fundamenta en teorías como el condicionamiento clásico y el constructivismo. La plasticidad cerebral permite adaptar conexiones neuronales, subrayando la importancia de experiencias enriquecedoras para el desarrollo integral y continuo.
+              p.descripcion.mb-4 Dislexia, disgrafía y discalculia son trastornos del aprendizaje que afectan la lectura, la escritura y las matemáticas, relacionados con el desarrollo cerebral. Junto al TDAH, exigen estrategias personalizadas basadas en evaluación integral, tecnología, apoyo psicológico y formación docente. La intervención temprana permite potenciar habilidades, fomentar la inclusión y fortalecer la autoestima de los estudiantes, promoviendo un aprendizaje integral y adaptativo.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold Conocer el cerebro es descubrir el potencial infinito del ser humano para aprender, adaptarse y transformar su vida y su entorno.
+
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold "Cada estudiante tiene un potencial único; con el apoyo adecuado, no solo superarán sus desafíos, sino que también descubrirán fortalezas que los llevarán a alcanzar grandes logros."
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

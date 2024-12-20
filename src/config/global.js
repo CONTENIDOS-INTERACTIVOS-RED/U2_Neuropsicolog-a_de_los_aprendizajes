@@ -16,8 +16,9 @@ export default {
         imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
       },
     ],
-    numeroUnidad: '1',
-    tituloUnidad: 'Fundamentos de la neuropsicología del aprendizaje	',
+    numeroUnidad: '2',
+    tituloUnidad:
+      'Trastornos del Aprendizaje desde una Perspectiva Neuropsicológica',
   },
   menuPrincipal: {
     menu: [
@@ -31,31 +32,43 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Definición y principios de la neuropsicología',
+        titulo:
+          'Dislexia, disgrafía, discalculia y su relación con el desarrollo cerebral.',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo: 'Dislexia',
+            hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Disgrafía',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Discalculia',
+            hash: 't_1_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Desarrollo cerebral y aprendizaje',
+        titulo: 'TDHA: Trastorno por déficit de atención e hiperactividad.',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Aprendizaje',
-            hash: 't_2_1',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo:
-          'Estructuras cerebrales involucradas en los procesos de memoria, atención y aprendizaje',
+        titulo: 'Intervención',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -97,160 +110,73 @@ export default {
   referencias: [
     {
       referencia:
-        'Cao, G., & Duan, Y. (2018). The Impact of Big Data Analytics on Firm Performance: A Resource-Based View. Information & Management, 55(8), 1031-1043.',
+        'American Psychological Association [APA]. (2014). Manual de diagnóstico y estadístico de los trastornos mentales (DSM-5).',
       link: '',
     },
     {
       referencia:
-        'Chen, H., Chiang, R. H., & Storey, V. C. (2012). Business intelligence and analytics: From big data to big impact. MIS Quarterly, 36(4), 1165-1188.',
-      link: 'https://doi.org/10.2307/41703503',
+        'Fernández Baroja, F., Llopis Paret, A. M., & Pablo Marco, C. (2012). Discalculia escolar. Editorial CEPE.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/153554?page=206',
     },
     {
       referencia:
-        'Chen, M., Mao, S., & Liu, Y. (2014). Big Data: A Survey. Mobile Networks and Applications, 19(2), 171-209.',
-      link: '',
+        'Gardner, H. (1994). Estructuras de la mente: la teoría de las inteligencias múltiples. Fondo de Cultura Económica Argentina.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/110041?page=13',
     },
     {
       referencia:
-        'Gartner, Inc. (2020). Magic Quadrant for Analytics and Business Intelligence Platforms.',
-      link: '',
+        'Miranda Casas, A. (1999). El niño hiperactivo (TDA-H): intervención en el aula: un programa de formación para profesores. Universitat Jaume I.',
+      link:
+        'https://books.google.co.id/books?id=-X2JeoHmuI0C&printsec=frontcover&hl=es&source=gbs_vpt_read#v=onepage&q&f=false',
     },
     {
       referencia:
-        'Han, J., Kamber, M., & Pei, J. (2011). Data mining: Concepts and techniques (3rd ed.). Morgan Kaufmann.',
-      link: '',
+        'Outón Oviedo, P. (2007). Programas de intervención con disléxicos: diseño, implementación y evaluación. Editorial CEPE.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/153530?page=25',
     },
     {
       referencia:
-        'Inmon, W. H. (2005). Building the Data Warehouse. John Wiley & Sons.',
-      link: '',
-    },
-    {
-      referencia:
-        'Laursen, G. H., & Thorlund, J. (2010). Business Analytics for Managers: Taking Business Intelligence Beyond Reporting. Wiley.',
-      link: '',
-    },
-    {
-      referencia:
-        'Power, D. J. (2007). A Brief History of Decision Support Systems. Knowledge and Information Systems, 4(2), 103-106.',
-      link: '',
-    },
-    {
-      referencia:
-        'Russom, P. (2011). Big Data Analytics. TDWI Best Practices Report, 1-28.',
-      link: '',
-    },
-    {
-      referencia:
-        'Turban, E., Sharda, R., & Delen, D. (2011). Business Intelligence: A Managerial Approach. Pearson Prentice Hall.',
-      link: '',
-    },
-    {
-      referencia:
-        'Turban, E., Sharda, R., & Delen, D. (2011). Decision support and business intelligence systems (9th ed.). Pearson Education.',
-      link: '',
+        'Teruel Romero, J. & Latorre Latorre, Á. (2015). Dificultades de aprendizaje: intervención en dislexia y discalculia. Difusora Larousse - Ediciones Pirámide.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/49080?page=16',
     },
   ],
   glosario: [
     {
-      termino: 'BI (Business Intelligence)',
-      significado:
-        'Conjunto de tecnologías y procesos que convierten datos en información útil para la toma de decisiones',
+      referencia:
+        'American Psychological Association [APA]. (2014). Manual de diagnóstico y estadístico de los trastornos mentales (DSM-5).',
+      link: '',
     },
     {
-      termino: 'Big Data',
-      significado:
-        'Conjunto de datos de gran volumen, velocidad y variedad, que requiere tecnologías avanzadas para su análisis',
+      referencia:
+        'Fernández Baroja, F., Llopis Paret, A. M., & Pablo Marco, C. (2012). Discalculia escolar. Editorial CEPE.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/153554?page=206',
     },
     {
-      termino: 'Cuadro de mando (Dashboard)',
-      significado:
-        'Herramienta de visualización de datos que muestra indicadores clave de rendimiento en tiempo real',
+      referencia:
+        'Gardner, H. (1994). Estructuras de la mente: la teoría de las inteligencias múltiples. Fondo de Cultura Económica Argentina.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/110041?page=13',
     },
     {
-      termino: 'Data Lake',
-      significado:
-        'Repositorio que almacena grandes volúmenes de datos en su forma original, estructurada y no estructurada',
+      referencia:
+        'Miranda Casas, A. (1999). El niño hiperactivo (TDA-H): intervención en el aula: un programa de formación para profesores. Universitat Jaume I.',
+      link:
+        'https://books.google.co.id/books?id=-X2JeoHmuI0C&printsec=frontcover&hl=es&source=gbs_vpt_read#v=onepage&q&f=false',
     },
     {
-      termino: 'Data Mart',
-      significado:
-        'Subconjunto de un data warehouse que se centra en un área específica de una organización',
+      referencia:
+        'Outón Oviedo, P. (2007). Programas de intervención con disléxicos: diseño, implementación y evaluación. Editorial CEPE.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/153530?page=25',
     },
     {
-      termino: 'Data Mining (Minería de Datos)',
-      significado:
-        'Proceso de analizar grandes conjuntos de datos para descubrir patrones y relaciones',
-    },
-    {
-      termino: 'Data Warehouse (Almacén de Datos)',
-      significado:
-        'Repositorio centralizado de datos consolidados de distintas fuentes para análisis y reportes',
-    },
-    {
-      termino: 'Dimensión',
-      significado:
-        'Categoría utilizada en un data warehouse para organizar datos, como tiempo, geografía o producto',
-    },
-    {
-      termino: 'ETL (Extract, Transform, Load)',
-      significado:
-        'Proceso de extraer, transformar y cargar datos en un almacén de datos',
-    },
-    {
-      termino: 'Indicador clave de desempeño (KPI)',
-      significado:
-        'Métrica que mide el rendimiento de una actividad o proceso específico en una organización',
-    },
-    {
-      termino: 'Informes (Reports)',
-      significado:
-        'Documentos que presentan datos procesados y análisis de manera organizada para toma de decisiones',
-    },
-    {
-      termino: 'IoT (Internet of Things)',
-      significado:
-        'Tecnología que conecta dispositivos físicos a internet para recopilar y compartir datos en tiempo real',
-    },
-    {
-      termino: 'Machine learning (Aprendizaje Automático)',
-      significado:
-        'Técnica de IA que permite a los sistemas aprender y mejorar sin programación explícita',
-    },
-    {
-      termino: 'Metadatos',
-      significado:
-        'Datos que describen otros datos, como su origen, formato y características',
-    },
-    {
-      termino: 'OLAP (Online Analytical Processing)',
-      significado:
-        'Tecnología que permite el análisis rápido y multidimensional de grandes volúmenes de datos',
-    },
-    {
-      termino: 'Panel de control (Control Panel)',
-      significado:
-        'Interfaz que permite supervisar y gestionar datos en una plataforma de BI',
-    },
-    {
-      termino: 'Predicción (Forecasting)',
-      significado:
-        'Proceso de estimar el comportamiento futuro basado en datos históricos y tendencias',
-    },
-    {
-      termino: 'SQL (Structured Query Language)',
-      significado:
-        'Lenguaje de programación utilizado para gestionar y manipular bases de datos relacionales',
-    },
-    {
-      termino: 'Toma de decisiones basada en datos',
-      significado:
-        'Proceso de utilizar datos y análisis en lugar de intuición para tomar decisiones',
-    },
-    {
-      termino: 'Visualización de datos',
-      significado:
-        'Técnica que convierte datos en gráficos y diagramas para facilitar su comprensión e interpretación',
+      referencia:
+        'Teruel Romero, J. & Latorre Latorre, Á. (2015). Dificultades de aprendizaje: intervención en dislexia y discalculia. Difusora Larousse - Ediciones Pirámide.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/49080?page=16',
     },
   ],
   complementario: [
