@@ -14,9 +14,9 @@
 
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            <iframe width="1903" height="748" src="https://www.youtube.com/embed/10gEJkynf3E" title="Trastorno por Déficit de Atención e Hiperactividad TDAH" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-    h2 Importancia de las experiencias y etapas críticas del desarrollo
+    h2 Criterios diagnósticos según el DSM-IV-TR
 
     .row.mb-4 
       .col-12.col-xl-11(data-aos="fade-right")
@@ -66,7 +66,7 @@
                 img.mt-2.me-2.d-flex.align-self-start(style="width: 15px" src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen')
                 p.mb-0 Interrumpe actividades de otros.
 
-    h2 Importancia de las experiencias y etapas críticas del desarrollo
+    h2 Impacto del TDAH en el entorno familiar y educativo
 
     .row.mb-5
       .col-12.col-xl-7.col-xxl-8.d-flex.flex-column

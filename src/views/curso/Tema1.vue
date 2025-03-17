@@ -155,10 +155,10 @@
         p Alteraciones en las áreas cerebrales responsables del lenguaje y la lectura.
       .tarjeta.bg-white.p-4(x="56%" y="48%" numero="+")
         .h5.mb-2 Genética
-        p Dificultades en el procesamiento de sonidos, que impactan la comprensión auditiva.
+        p Carga hereditaria relacionada con alteraciones en genes específicos (e.g., cromosoma 15). 
       .tarjeta.bg-white.p-4(x="42%" y="58%" numero="+")
         .h5.mb-2 Auditiva
-        p Carga hereditaria relacionada con alteraciones en genes específicos (e.g., cromosoma 15).
+        p Dificultades en el procesamiento de sonidos, que impactan la comprensión auditiva.
 
     h2 Impacto en la salud mental
 
@@ -266,7 +266,7 @@
                     td Apertura voluntaria de la mano para soltar objetos; inicio del reconocimiento táctil.
 
     p.mb-4 El agarre en pinza y la coordinación motriz fina, que se desarrollan alrededor de los 9 meses, son fundamentales para la escritura.
-    h2 Desarrollo de la escritura en la infancia 
+    h2 Entendiendo la disgrafía 
 
     .row.bg-verde.bg-full-width.py-4.mb-4
       div.px-5.pb-md-3.py-4.d-flex
@@ -394,8 +394,8 @@
               div.d-flex.mb-1
                 img.mt-2.me-2.d-flex.align-self-start(style="width: 15px" src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen')
                 p.mb-0 División (÷): repartir un número en partes iguales.
-          .div(titulo="Operaciones matemáticas")
-            p.mb-1 
+          .div(titulo="Resolución de problemas:")
+            p.mb-1  Comprender y plantear soluciones a situaciones que involucran matemáticas.
             .row.ps-4
               div.d-flex.mb-1
                 img.mt-2.me-2.d-flex.align-self-start(style="width: 15px" src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen')
@@ -404,6 +404,7 @@
                 img.mt-2.me-2.d-flex.align-self-start(style="width: 15px" src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen')
                 p.mb-0 Problemas de combinación: operaciones estáticas que suman elementos (e.g., "Juan tiene tres manzanas y Ana dos, ¿cuántas tienen en total?").
 
+    h2 Clasificación de la discalculia
     p.mb-4 Diferentes autores han propuesto clasificaciones de la discalculia para describir las áreas específicas afectadas:
     p.mb-3 <strong>Tabla 2. </strong> Clasificación por clases 
 
@@ -509,7 +510,7 @@
 
     .row.mb-4
       .col-12.col-xl-10(data-aos="fade-right")
-        h2 Estructuras cerebrales implicadas
+        h2 Impacto en la vida cotidiana
         span La discalculia afecta no solo el desempeño académico, sino también la confianza en las habilidades matemáticas de los individuos. Estas dificultades pueden influir en actividades cotidianas como manejar dinero, calcular distancias o planificar horarios, limitando la independencia y las oportunidades laborales.
       .col-2.ms-auto.d-none.d-xl-block(data-aos="fade-left")
         img(src='@/assets/curso/unidad/img-44.png', alt='Texto que describa la imagen')

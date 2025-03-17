@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'3. Estructuras cerebrales involucradas en los procesos de memoria, atención y aprendizaje'")
+  BannerInterno(:subTitulo="'3. Intervención'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
     .row.mb-5.mx-0
@@ -103,7 +103,10 @@
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
-
+    .bg-full-width.border-top.actividad(style='background-color: #ebf1f5; border-top: 5px solid #f5c145 !important')
+      .p-4.p-md-5
+        #Actividad
+          <Actividad :cuestionario='cuestionario'/>
 
 </template>
 
@@ -114,6 +117,86 @@ export default {
   components: {
     BannerInterno,
   },
+  data: () => ({
+    cuestionario: {
+      tema: 'Dislexia e Inteligencias Múltiples',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto: '¿Cuál de las siguientes es una posible causa de la dislexia?',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Hogar disfuncional', esCorrecta: false },
+            { id: 'b', texto: 'Carga genética', esCorrecta: true },
+            { id: 'c', texto: 'Problemas de atención', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Impactos en las estructuras cerebrales',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            '¿Qué tipo de inteligencia permite a una persona entender sus propias emociones?',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Inteligencia lógica', esCorrecta: false },
+            { id: 'b', texto: 'Inteligencia interpersonal', esCorrecta: false },
+            { id: 'c', texto: 'Inteligencia intrapersonal', esCorrecta: true },
+            { id: 'd', texto: 'Inteligencia espacial', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto: 'Los niños con dislexia no pueden ser inteligentes.',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto:
+            'Martin está presentando síntomas con dificultades para procesar el lenguaje, por lo cual creen que puede tener dislexia. Esto es:',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            'La teoría de las inteligencias múltiples fue formulada por el psicólogo Sigmund Freud.',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_reprobado:
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
