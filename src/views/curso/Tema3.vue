@@ -86,7 +86,7 @@
 
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="#") Miranda Casas, A. (1999). El niño hiperactivo (TDA-H): intervención en el aula. Universitat Jaume I.
+              a.text-small.text-primary(target="_blank", href="https://dialnet.unirioja.es/servlet/libro?codigo=322002") Miranda Casas, A. (1999). El niño hiperactivo (TDA-H): intervención en el aula. Universitat Jaume I.
 
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")

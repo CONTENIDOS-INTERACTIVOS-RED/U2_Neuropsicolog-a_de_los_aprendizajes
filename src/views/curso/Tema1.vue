@@ -62,8 +62,8 @@
           h2.mb-4.pb-2.me-auto Las múltiples inteligencias 
           p.mb-5 Se invita a profundizar sobre las teorías múltiples a través del texto de Macías (2066) el cual genera un análisis reflexivo acerca de las múltiples inteligencias. Ya que plantea como la nueva visión de la inteligencia permite reivindicar la condición humana en relación con la capacidad de cognición.  
           a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" href="https://elibro.net/es/ereader/tecnologicadeloriente/6138?page=1 " target="_blank")
-            img.h-100(style="width: 48px" src='@/assets/componentes/link-icon-square.svg', alt='Texto que describa la imagen')
-            p.text-small.fs-14px.my-auto.px-2 <strong>Sitio web.</strong> las teorías múltiples a través del texto de Macías (2066)   
+            img.h-100(style="width: 25px" src='@/assets/componentes/book.svg', alt='Texto que describa la imagen')
+            p.text-small.fs-14px.my-auto.px-2 <strong>Lectura.</strong> las teorías múltiples a través del texto de Macías (2066)   
 
     .row.mb-4
       .col-12.col-xl-10(data-aos="fade-right")
